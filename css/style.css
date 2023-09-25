@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: auto;
+  background-color: #64b1ff;
+  width: 400px;
+  height: 800px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#barra_topo {
+  width: 400px;
+  height: 5px;
+  background-color: #a2eacb;
+  margin-bottom: 10px;
+}
+
+#quadrado {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(162, 234, 203, 0.801);
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+#inscrevase {
+  font-family: "roboto", "sans-serif";
+  font-size: 30px;
+  margin-left: 45px;
+  margin-top: -25px;
+  text-transform: capitalize;
+}
+
+#form_inscrever {
+  font-size: 18px;
+  font-family: "roboto", "sans-serif";
+  font-weight: 600;
+  border-radius: 5px;
+  width: 340px;
+  height: 650px;
+  background-color: rgb(183, 237, 213);
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#label {
+  font-family: "roboto", "sans-serif";
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+#input {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  outline: 1px solid #64b1ff;
+  border: none;
+  padding-left: 5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+#olho {
+  margin-left: 300px;
+  margin-bottom: 37px;
+  margin-top: -50px;
+  opacity: 0.4;
+}
+#label_numero {
+  margin-left: 100px;
+  padding: 5px;
+  font-family: "roboto", "sans-serif";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#input_cep {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid #64b1ff;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#input_numero {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid #64b1ff;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+#select_cidade {
+  font-family: "roboro", "sans-serif";
+  width: 305px;
+  height: 35px;
+  border-radius: 5px;
+  outline: 1px solid #64b1ff;
+  border: none;
+  padding-left: 5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+#input_checkbox {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+#p_checkbox {
+  font-family: "roboto", "sans-serif";
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: -23px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+#button {
+  font-family: "roboto", "sans-serif";
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #64b1ff;
+  margin-left: 70px;
+  margin-top: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
